@@ -11,7 +11,7 @@ jobs:
        run: echo "Hello, world!"
      - name: Checkout code
        uses: actions/checkout@v2
-     - name: Run Super_linter
+     - name: Run Super_Linter
        uses: github/super-linter@v3
        env: 
         DEFAULT_BRANCH: main
