@@ -1,0 +1,16 @@
+name: Simple CI 
+on:  push 
+# workflow_dispatch: # lets you trigger manually from GitHub UI
+# push:
+# branches:
+
+# main # runs on push to main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Checkout code
+       uses: actions/checkout@v4
+     - name: 23f2000220@ds.study.iitm.ac.in
+       run: echo "Hello, this step name contains the required email."
